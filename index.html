@@ -157,31 +157,32 @@
     <main>
         <div id="about" class="tab">
             <h2>About Me</h2>
-            <p>I am a 21-year-old third-year student at Northwest University. I attended high school at DF Malan in Bellville and grew up in Welgemoed. I am a collaborative and communicative individual who excels under pressure and possesses strong problem-solving skills. My hobbies are playing games, listing and creating music and drawing to develop creative skills.</p>
+            <p>I am a 21-year-old third-year student at Northwest University. I attended high school at DF Malan in Bellville and grew up in Welgemoed. I am a collaborative and communicative individual who excels under pressure and possesses strong problem-solving skills. 
+            My hobbies are playing games, listing and creating music, and drawing to develop creative skills.</p>
+            <p><a href="https://github.com/Andrew-le-Roux/Virtual-CV/raw/ecdbd1552e3d3c36287594311f8228575d7fef87/CV%20Resume.pdf" download>Download my CV</a></p>
         </div>
 
         <div id="resume" class="tab">
-            <h2>Education</h2>
-            <p><strong>National Senior Certificate</strong></p>
+            <h2>Resume/CV</h2>
+            <p><strong>Education:</strong></p>
+            <p>National Senior Certificate</p>
             <ul>
                 <li>Achieved in 2021</li>
                 <li>School: DF Malan High School</li>
-                <li>Subjects: Mathematics, Physical science, Accounting, Information Technology</li>
+                <li>Subjects: Mathematics, Physical Science, Accounting, Information Technology.</li>
             </ul>
-            <p><strong>BSc Information Technology</strong></p>
+            <p>Bsc Information Technology</p>
             <ul>
-                <li>Currently studying IT at NWU. I am in third year expecting to graduate in 2024.</li>
+                <li>Currently studying IT at NWU. I am in my third year, expecting to graduate in 2024.</li>
             </ul>
-        </div>
 
-        <div id="work" class="tab">
-            <h2>Work Experience</h2>
-            <p><strong>Delivery Driver</strong></p>
+            <p><strong>Work Experience:</strong></p>
+            <p>Delivery Driver</p>
             <ul>
                 <li>Magic Pizza</li>
                 <li>Responsibilities: Delivered orders to customers, maintained delivery schedules, and provided excellent customer service.</li>
             </ul>
-            <p><strong>Waiter/Bartender</strong></p>
+            <p>Waiter/Bartender</p>
             <ul>
                 <li>Bellville Golf Club</li>
                 <li>Responsibilities: Served food and beverages, interacted with guests, and ensured a positive dining experience.</li>
@@ -190,11 +191,11 @@
 
         <div id="projects" class="tab">
             <h2>Projects</h2>
-            <p><strong>Encryption Decryption Project</strong></p>
+            <p><strong>Encryption Decryption Project:</strong></p>
             <ul>
-                <li>Developed a program to encrypt user input and decrypt it uses a key to display the original input.</li>
+                <li>Developed a program to encrypt user input and decrypt it using a key to display the original input.</li>
             </ul>
-            <p><strong>Small Messenger Application</strong></p>
+            <p><strong>Small Messenger Application:</strong></p>
             <ul>
                 <li>Designed an application that allows users to send and receive messages, establish connections using IP and ports, and create user groups.</li>
             </ul>
@@ -208,7 +209,7 @@
                 <li>Excellent communication and collaboration abilities.</li>
                 <li>Experience with web development (HTML, CSS, JavaScript).</li>
                 <li>Adaptability and willingness to learn new technologies.</li>
-                <li>Experience with piano, trumpet, tuba but mostly saxophone.</li>
+                <li>Experience with piano, trumpet, tuba, but mostly saxophone.</li>
             </ul>
         </div>
 
@@ -247,9 +248,12 @@
             }
         }
 
-        // When the user clicks on the button, scroll to the top of the document with smooth scrolling
+        // Smooth scrolling to the top of the document
         function topFunction() {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+            document.documentElement.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
         }
     </script>
 </body>
